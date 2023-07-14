@@ -7,7 +7,7 @@ st.write("Hello")
 # Set the necessary parameters
 host = "https://dbc-620f667e-7348.cloud.databricks.com"
 token = "dapia3599098eeea5f35eed792cdb361a438"
-path = "/mnt/s3a://itx-dbm-dbw-pricinganalytics-dev/FileStore/tables/IQVIA_mapping/0019_part_00.csv"
+path = "s3a://itx-dbm-dbw-pricinganalytics-dev/FileStore/tables/IQVIA_mapping/0019_part_00.csv"
 
 # Create the API endpoint URL
 url = f"{host}/dbfs/read?path={path}"
